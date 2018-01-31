@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-int main()
+void main()
 {
     char arr[30],temp,i,l;
     printf("enter string");
@@ -15,5 +15,5 @@ int main()
             }
     }
     printf("%s",arr);
-    return 0;
+    
 }
