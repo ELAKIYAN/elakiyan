@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<string.h>
-void main()
+int main()
 {
 	char a[200],b[1300];
 	scanf("%s %s",a,b);
@@ -42,5 +42,5 @@ void main()
 	else
 	{
 		printf("no");
-	}
+	} return 0;
 }
