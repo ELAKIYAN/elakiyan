@@ -1,5 +1,5 @@
 #include <stdio.h>
-void main()
+int main()
 {
 int n,i,sum=0;
 printf("Enter a positive integer:");
@@ -9,4 +9,5 @@ for(i=1; i <= n; ++i)
 sum += i;
 }
 printf("Sum = %d",sum);
+  return 0;
 }
