@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+void main()
 {
 char a;
 printf("enter the letter");
@@ -8,5 +8,4 @@ if((a>='a')&&(a<='z'))
 printf("letter is alphebet");
 else
 printf("letter is not alphabet");
-return 0;
 }
