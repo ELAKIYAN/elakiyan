@@ -1,6 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
-void main()
+int main()
 {
 int n,p=1,d,sum=0,a;
 clrscr();
@@ -12,5 +11,5 @@ sum=sum+p;
 p=p+d;
 }
 printf("\n%d",sum);
-getch();
+return 0;
 }
