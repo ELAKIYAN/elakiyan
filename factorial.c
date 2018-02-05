@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
  int fact=i,n;
   printf("\n enter the number");
@@ -9,5 +9,6 @@ void main()
  fact=fact*i;
  }
   printf(" the factorial of the given number is:%d",&fact);
- getch();
+
+ return 0;
  }
